@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Young+Serif&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: hsl(330, 100%, 98%);
+}
+
+.container{
+    background-color: #fff;
+    width: 650px;
+    height: 1850px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 400px;
+    margin-top: 50px;
+    padding-top: px;
+    border-radius: 20px;
+}
+.container h1{
+    color:  hsl(30, 10%, 34%);
+    margin-right: 170px;
+    padding-top: 20px;
+}
+.image img{
+    width: 500px;
+    height: 250px;
+    border-radius: 10px;
+    margin-top: 50px;
+    /* padding-top: 20px; */
+}
+.container h3{
+    font-family: "Outfit", sans-serif;
+    color: hsl(332, 51%, 32%);
+
+}
+.container .an{
+    padding: 60px;
+    font-size: 16px;
+    font-family:  "Outfit", sans-serif;
+}
+.prep{
+    background-color: hsl(330, 100%, 98%);
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: 150px;
+    gap: 20px;
+    /* margin-top: 20px;
+    padding-left: 50px; */
+}
+.prep ul{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-family:"Outfit", sans-serif;
+    font-weight: 400;
+}
+.prep b{
+    font-weight: 600;
+    color: hsl(14, 45%, 36%);
+}
+.ingredent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: 20px;
+    margin-top: 20px;
+    margin-right: 50px;
+}
+.ingredent h2{
+    color: hsl(14, 45%, 36%);
+}
+.ingredent ul{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.ingredent ul li{
+    font-family: "Outfit", sans-serif;
+}
+.instructions{
+     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: 20px;
+    padding: 60px;
+    margin-bottom: 30px;
+    /* margin-top: 20px;
+    margin-right: 50px; */
+}
+.instructions h2{
+     color: hsl(14, 45%, 36%);
+}
+.instructions ol{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.instructions li{
+    font-size: 16px;
+    font-family:  "Outfit", sans-serif;
+}
+.instructions li b{
+    color: hsl(14, 45%, 36%);
+}
+.nutrition{
+    font-family:  "Outfit", sans-serif;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 30px;
+    padding-bottom: 50px;
+}
+.nutrition .calo{
+    display: flex;
+    flex-direction: row;
+    gap: 150px;
+}
+.nutrition .carb{
+     display: flex;
+    flex-direction: row;
+    gap: 165px;
+}
+.nutrition .pro{
+     display: flex;
+    flex-direction: row;
+    gap: 157px;
+}
+.nutrition .fat{
+     display: flex;
+    flex-direction: row;
+    gap: 185px;
+}
+.nutrition span{
+    color:hsl(14, 45%, 36%);
+    font-weight: 700;
+}
+hr{
+    color: hsl(14, 45%, 36%);
+
+}
+.line{
+    background-color: hsl(14, 45%, 36%);
+    height: 1px;
+    width: 550px;
+    margin-top: 30px;
+}
